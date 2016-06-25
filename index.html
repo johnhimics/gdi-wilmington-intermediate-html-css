@@ -57,6 +57,7 @@
                 <br/>
                 <h3>Download workshop files</h3>
                 <p>Please download workshop files at:<br />
+                <!-- todo -->
                 <a href="http://girldevelopit.github.io/gdi-featured-intermediate-html-css/workshop-files.zip">http://girldevelopit.github.io/gdi-featured-intermediate-html-css/workshop-files.zip</a></p>
             </section>
             <section>
@@ -87,14 +88,19 @@
             </section>
             <section class="hide-pdf">
                 <h3>About your instructor</h3>
+                <img style="width: 200px;" src="images/headshot_john.jpg"/>
+                <p>John Himics
+                    Web Developer, Tinkerer, and Co-Founder of First Ascent Design.</p> <br/>
+                    <a href="http://twitter.com/johnhimics">@johnhimics</a> <br/>
+                    <a href="https://www.linkedin.com/in/jmhimics">https://www.linkedin.com/in/jmhimics</a>
             </section>
             <section class="hide-pdf">
                 <h3>Now it's all about you!</h3>
                 <ul>
                     <li>Tell us who you are.</li>
                     <li>What do you hope to get out of this class?</li>
-                    <li>Unlimited amount of money - where would you travel to?</li>
-            </section>
+                    <li>Cats or Dogs? (or both?!)</li>
+            </section> 
             <section>
                 <h2>What we'll be covering in this class</h2>
                 <p>We'll be jumping into HTML/CSS right where the beginner class left off.</p>
@@ -103,6 +109,7 @@
             <section>
                 <h3>We will be building a profile site from scratch</h3>
                 <img src="images/gdi-profile-layout.png" alt="today's project" />
+                <p>Note: this does not have to be the site you build for the whole series</p>
             </section>
             <section data-background="#f05b62">
                 <h1 style="color: #fafafa;">Workshop files</h1>
@@ -171,12 +178,12 @@
                 <div>
                     Most elements:
                     <pre><code class = "html">
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 </code></pre>
                 </div>
                 <div>
@@ -1626,9 +1633,10 @@ and (orientation : landscape) {
           <h2>Viewport Meta</h2>
           <p>Use this to control the size of the viewport.</p>
 <pre><code>&lt;meta name="viewport" content="width=device-width, 
-user-scalable=true;"></code></pre>
-<p>Width=device-width makes the viewport the size of the device.</p>
-<p>User-scalable=true allows the user to pinch and zoom on your site.</p>
+user-scalable=true, initial-scale=1;"></code></pre>
+            <p>Width=device-width makes the viewport the size of the device.</p>
+            <p>User-scalable=true allows the user to pinch and zoom on your site.</p>
+            <p>initial-scale=1 means start the page zoomed at 100%.</p>
           </section>
           <section>
             <h2>Let's develop it!</h2>
